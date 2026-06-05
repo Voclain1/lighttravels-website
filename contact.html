@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Light Travels, Tours & Logistics</title>
+<meta name="description" content="Contact Light Travels — call, email, or visit our Opebi, Lagos office. Get a quote, plan a journey, or speak to our travel team.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header class="site-header solid">
+  <div class="container">
+    <nav class="nav">
+      <a href="index.html" class="logo">
+        <img src="images/logo.png" alt="Light Travels" height="60">
+      </a>
+      <button class="nav-toggle" aria-label="Toggle menu"><span></span><span></span></button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="destinations.html">Destinations</a></li>
+        <li><a href="pilgrimage.html">Pilgrimage</a></li>
+        <li><a href="corporate.html">Corporate</a></li>
+        <li><a href="contact.html" class="nav-cta active">Plan Trip</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<section class="page-header" style="padding: 9rem 0 4rem;">
+  <div class="page-header-bg">
+    <img src="https://images.unsplash.com/photo-1488646953014-85cb44e25828?auto=format&fit=crop&w=2000&q=80" alt="">
+  </div>
+  <div class="container">
+    <div class="page-header-content">
+      <div class="breadcrumb"><a href="index.html">Home</a><span>·</span>Contact</div>
+      <h1>Let's plan <span class="italic">your next journey.</span></h1>
+      <p class="lead">Send us a note, call the office, or stop by — we're ready to help.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="contact-grid">
+      <div class="reveal">
+        <span class="eyebrow">Send a Message</span>
+        <h2 class="mt-2">Tell us about your trip.</h2>
+        <p class="mt-3" style="color: var(--muted);">Fill in a few details below and we'll come back within 24 hours with options and next steps.</p>
+
+        <form class="contact-form mt-3" action="https://api.web3forms.com/submit" method="POST">
+          <!-- Web3Forms config — paste your access key below (free signup at web3forms.com) -->
+          <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE">
+          <input type="hidden" name="subject" value="New Enquiry from lighttravels.ng">
+          <input type="hidden" name="from_name" value="Light Travels Website">
+          <input type="hidden" name="redirect" value="false">
+          <input type="checkbox" name="botcheck" style="display:none" tabindex="-1" autocomplete="off">
+
+          <div class="form-row">
+            <div class="form-field">
+              <label for="name">Full Name</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-field">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-field">
+              <label for="phone">Phone</label>
+              <input type="tel" id="phone" name="phone">
+            </div>
+            <div class="form-field">
+              <label for="service">Service Needed</label>
+              <select id="service" name="service">
+                <option>Flight Booking</option>
+                <option>Tour Package</option>
+                <option>Visa Processing</option>
+                <option>Hotel Booking</option>
+                <option>Pilgrimage</option>
+                <option>Corporate Travel</option>
+                <option>Car Rental</option>
+                <option>Other</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-field">
+              <label for="destination">Destination</label>
+              <input type="text" id="destination" name="destination" placeholder="e.g. Dubai, London, Mecca">
+            </div>
+            <div class="form-field">
+              <label for="travel-date">Approx. Travel Date</label>
+              <input type="text" id="travel-date" name="travel-date" placeholder="e.g. March 2026">
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-field full">
+              <label for="message">Tell us more</label>
+              <textarea id="message" name="message" placeholder="Number of travelers, special preferences, anything we should know..."></textarea>
+            </div>
+          </div>
+          <div class="mt-2" style="display:flex;align-items:center;gap:1.5rem;flex-wrap:wrap;">
+            <button type="submit" class="btn btn-primary">Send Enquiry <span class="arrow">→</span></button>
+            <span class="form-status" style="font-size:0.875rem;color:var(--muted);"></span>
+          </div>
+        </form>
+      </div>
+
+      <div class="contact-info reveal reveal-delay-1">
+        <span class="eyebrow">Reach Us Directly</span>
+
+        <div class="contact-info-block mt-2">
+          <div class="label">Office</div>
+          <p>28, Irewole Street,<br>Behind Chicken Republic,<br>Opebi, Lagos, Nigeria</p>
+        </div>
+
+        <div class="contact-info-block">
+          <div class="label">Phone</div>
+          <a href="tel:+2347072109592">0707 210 9592</a>
+        </div>
+
+        <div class="contact-info-block">
+          <div class="label">Email</div>
+          <a href="mailto:hello@lighttravels.ng">hello@lighttravels.ng</a>
+        </div>
+
+        <div class="contact-info-block">
+          <div class="label">Hours</div>
+          <p>Monday – Friday: 9:00 — 18:00<br>Saturday: 10:00 — 14:00<br>Sunday: Closed</p>
+        </div>
+
+        <div class="contact-info-block">
+          <div class="label">After Hours</div>
+          <p style="color: var(--muted); font-size: 0.9375rem;">Existing clients with active itineraries can reach our on-call line 24/7 — number provided on booking confirmation.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-tight" style="background: var(--cream); padding-top: 0;">
+  <div class="container">
+    <div style="aspect-ratio: 21/9; overflow: hidden; border: 1px solid var(--line);">
+      <iframe
+        src="https://www.google.com/maps?q=Irewole+Street,+Opebi,+Lagos,+Nigeria&output=embed"
+        width="100%" height="100%" style="border:0; display:block;"
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        title="Light Travels office location, Opebi, Lagos"></iframe>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="logo">
+        <img src="images/footer-logo.png" alt="Light Travels" height="60">
+      </a>
+        <p>A Nigerian travel and logistics company offering flights, visas, tours, pilgrimage, and corporate travel services — globally connected, locally rooted.</p>
+      </div>
+      <div>
+        <div class="footer-heading">Explore</div>
+        <ul class="footer-links">
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="destinations.html">Destinations</a></li>
+          <li><a href="pilgrimage.html">Pilgrimage</a></li>
+          <li><a href="corporate.html">Corporate</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="footer-heading">Services</div>
+        <ul class="footer-links">
+          <li><a href="services.html">Flights &amp; Ticketing</a></li>
+          <li><a href="services.html">Visa Processing</a></li>
+          <li><a href="services.html">Hotel Booking</a></li>
+          <li><a href="services.html">Airport Transfers</a></li>
+          <li><a href="services.html">Tour Packages</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <div class="footer-heading">Contact</div>
+        <div><strong>Office</strong>28 Irewole Street, Behind Chicken Republic,<br>Opebi, Lagos</div>
+        <div><strong>Phone</strong><a href="tel:+2347072109592">0707 210 9592</a></div>
+        <div><strong>Email</strong><a href="mailto:hello@lighttravels.ng">hello@lighttravels.ng</a></div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div>© <span id="year">2026</span> Light Travels, Tours and Logistics Ltd. All rights reserved.</div>
+      <div class="legal"><a href="#">Privacy</a><a href="#">Terms</a></div>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
