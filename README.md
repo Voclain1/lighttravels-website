@@ -1,6 +1,6 @@
 # Light Travels, Tours & Logistics — Website
 
-Production-ready static HTML/CSS site for **lighttravels.ng**. White / Gold / Navy palette, refined editorial-luxury direction.
+Production-ready static HTML/CSS site for **lighttravels.ng**. Lagos-bright palette (Naija green, sunset gold, coral, warm cream) with kente-stripe and Ankara-pattern accents on a premium editorial base. Fonts: Fraunces + Plus Jakarta Sans.
 
 ## Pages (7)
 
